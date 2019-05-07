@@ -8,18 +8,19 @@ public class Plane implements Vehicle {
 
     }
 
+
     @Override
-    public int set_num_of_wheels() {
+    public int setNumOfWheels() {
         return 0;
     }
 
     @Override
-    public int set_num_of_passengers() {
+    public int setNumOfPassengers() {
         return 0;
     }
 
     @Override
-    public boolean has_gas() {
+    public boolean hasGas() {
         return false;
     }
 }

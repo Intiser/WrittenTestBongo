@@ -7,17 +7,17 @@ public class Plane extends Vehicle {
     }
 
     @Override
-    int set_num_of_wheels() {
+    int setNumOfWheels() {
         return 0;
     }
 
     @Override
-    int set_num_of_passengers() {
+    int setNumOfPassengers() {
         return 0;
     }
 
     @Override
-    boolean has_gas() {
+    boolean hasGas() {
         return false;
     }
 }

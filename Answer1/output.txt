@@ -1,0 +1,6 @@
+anagram
+not anagram
+anagram
+not anagram
+anagram
+not anagram
