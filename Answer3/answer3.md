@@ -13,7 +13,7 @@ Class Video{
 
 Also I am assuming that the video is already loaded to the videoPlayer. 
 
-So if someone pressed or touched the play button I will execute this method: 
+So if someone pressed or touched the play button I will execute the method given below.  
 
 ```
 void playButtonPressed(){
@@ -27,7 +27,7 @@ void playButtonPressed(){
 
 
 
-To go fast forward I will jump ahead of the current time. So for each press I will get the current time and jump much ahead of that. Though there are some issues with default videoview of android so I may need to handle it in different way. But the basic idea of what I want to do is here: 
+To go fast forward I will jump ahead of the current time. So for each press I will get the current time and jump much ahead of that. Though there are some issues with default videoview of android so I may need to handle it in different way. But the basic idea of what I want to do is given below. Assumed that it will be execute for each press. For long press the given method will be executed multiple times.  
 
 ```
 void forwardButtonPressed(){
